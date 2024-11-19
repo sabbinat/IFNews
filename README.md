@@ -1,5 +1,9 @@
 <h1>Trabajo Final - Sistemas Distribuidos</h1>
     <p>Este repositorio contiene las entregas correspondientes al trabajo final del curso.</p>
+    <h2>Acceso Rápido</h2>
+    <p>Puedes ver la página directamente en GitHub Pages: 
+        <a href="https://sabbinat.github.io/IFNews/" target="_blank">Acceder a IFNews</a>
+    </p>
     <h2>Tarea 1: Página en Docker</h2>
     <h3>Descripción</h3>
     <p>Se desarrolló un prototipo de página de noticias para IFSul utilizando:</p>
