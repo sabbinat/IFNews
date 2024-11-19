@@ -10,14 +10,14 @@
     <h3>Cómo ejecutar</h3>
    <ol>
         <li>Asegúrate de tener Docker instalado en tu máquina.</li>
-        <li>Descarga la imagen desde Docker Hub:  <i>https://hub.docker.com/r/sabbinat/web001</i>
-            <pre><code>docker pull sabbinat/web001</code></pre>
+        <li>Descarga la imagen desde Docker Hub:  <i>https://hub.docker.com/r/sabbinat/ifnews</i>
+            <pre><code>docker pull sabbinat/ifnews</code></pre>
         </li>
-        <li>Ejecuta la aplicación:
-            <pre><code>docker run -p 8080:8080 sabbinat/web001</code></pre>
+        <li>Ejecuta la página:
+            <pre><code>docker run -p 8080:8080 sabbinat/ifnews</code></pre>
         </li>
-        <li>Accede a la aplicación en tu navegador:
-            <pre><code>http://localhost:8080</code></pre>
+        <li>Accede a la página en tu navegador:
+            <pre><code>http://localhost:8080/IFNews/page.html</code></pre>
         </li>
     </ol>
     <h2>Tarea 2: Artículo sobre Computación en la Nube</h2>
