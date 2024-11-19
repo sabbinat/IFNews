@@ -10,7 +10,7 @@
     <ul>
         <li><strong>Lenguaje de programación:</strong> HTML, CSS y JavaScrip</li>
     </ul>
-    <p>La aplicación está disponible como una imagen en Docker Hub para su fácil acceso y ejecución.</p>
+    <p>La página está disponible como una imagen en Docker Hub para su fácil acceso y ejecución.</p>
     <h3>Cómo ejecutar</h3>
    <ol>
         <li>Asegúrate de tener Docker instalado en tu máquina.</li>
