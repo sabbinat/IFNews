@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFNews - Noticia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg container-fluid px-4">
+          <a class="navbar-brand" href="page.html"><img src="img/logo/logo-vert1.png" alt="logo" class="logo"><span>NEWS</span></a>
+          <div class="collapse navbar-collapse justify-content-end">
+              <nav class="navbar navbar-expand-lg">
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                          <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="page.html">Inicio</a>
+                          </li>
+                          <li class="nav-item dropdown me-3">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Categoría
+                              </a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Deporte</a></li>
+                                  <li><a class="dropdown-item" href="eventos.html">Eventos</a></li>
+                                  <li><a class="dropdown-item" href="#">Institucional</a></li>
+                                  <li><a class="dropdown-item" href="#">Premiaciones</a></li>
+                                  <li><a class="dropdown-item" href="#">Enviar noticia</a></li>
+                              </ul>
+                          </li>
+                      </ul>               
+                  </div>
+              </nav>
+              <form class="d-flex" style="height: 1.2rem;" role="search">
+                  <input class="form-control me-2" style="width: 120px; padding: 0.25rem 0.5rem; font-size: 0.7rem;" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" style="width: 60px; font-size: 0.6rem; padding: 0.13rem; color: #fff; background-color: #fd8f44;" type="submit">Buscar</button>
+              </form>                
+          </div>
+      </nav>
+    </header>
+
+    <!-- HOME -->
+    <section class="news-header">
+        <div class="header-content post-container">
+            <h1 class="header-title">Los Juegos Intercámpus del IFSul reúnen a cientos de estudiantes en competiciones de diversas modalidades deportivas.</h1>
+            <div class="photo-wrapper">
+                <img class="main_photo" src="img/noticias/1.jpg">      
+                <div class="thumbnails">
+                    <img class="thumbnail" src="img/noticias/2.jpg" alt="noticia" onclick="changePhoto('img/noticias/2.jpg')">
+                    <img class="thumbnail" src="img/noticias/3.jpg" alt="noticia 2" onclick="changePhoto('img/noticias/3.jpg')">
+                    <img class="thumbnail" src="img/noticias/4.jpg" alt="noticia 3" onclick="changePhoto('img/noticias/4.jpg')">
+                    <img class="thumbnail" src="img/noticias/5.jpg" alt="noticia 4" onclick="changePhoto('img/noticias/5.jpg')">
+                    <img class="thumbnail" src="img/noticias/1.jpg" onclick="changePhoto('img/noticias/1.jpg')">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEWS CONTENT -->
+    <section class="post-content post-container">
+        <!-- CREDIT -->
+        <div>
+            <p class="post-credit text-center"><strong><i>Fotos por Greice Gomes</i></strong></p><br>
+            <p class="post-credit">
+            Escrito por Greice Gomes | <strong> Coordenadoria de Comunicación Social </strong> <br>
+            Traducido al español por Natalie Fernández
+            </p>
+            <hr>
+            <p class="post-date d-flex justify-content-end ms-5">Martes, 08 de Noviembre de 2022, 17:11 </p>
+        </div>
+
+        <!-- FONT SIZE -->
+        <div class="d-flex justify-content-end mb-3 me-3">
+            <span class="font-adjust" onclick="adjustFontSize('increase')">A+</span>
+            <span class="font-adjust" onclick="adjustFontSize('decrease')">A-</span>
+            <span class="font-adjust" onclick="adjustFontSize('reset')">A</span>
+        </div>        
+               
+        <!-- TEXT -->
+        <div>
+            <p class="post-text">La animación de las multitudes ya lo indicaba: era el día de la final de los Juegos Intercámpus del IFSul. Después de dos años sin llevarse a cabo los Juegos debido a la pandemia, fue el momento para que los atletas de todos los campus de la institución experimentaran la participación en la mayor competición deportiva del instituto. La final de los Juegos tuvo lugar el viernes, en Pelotas, y contó con la participación de unos 300 estudiantes; sumando las etapas anteriores, fueron más de 850 participantes durante todo el evento. <br>
+                <br> Además de marcar este momento histórico de los Juegos, fue la primera vez que estudiantes de los 14 campus del instituto participaron en el evento. Los juegos se disputaron en las disciplinas de atletismo, futsal, balonmano, baloncesto, voleibol, voleibol de playa, ajedrez y tenis de mesa. <br>
+                <br> Antes de la final, se llevaron a cabo dos etapas regionales de la competición, con partidos entre los campus de la región centro-norte del estado, con sede en el campus Sapucaia do Sul, y partidos entre los campus de la región sur, con sede en el campus Pelotas. La final fue disputada entre los ganadores de las etapas regionales. Consulta los resultados al final del artículo.
+            </p>
+            <h2 class="sub-heading">Entusiasmo marca la retomada exitosa e histórica de los juegos.</h2>
+            <p class="post-text">Incluso con todos los desafíos para retomar la realización de los Juegos, el resultado fue un verdadero regalo para aquellos que esperaban con ansias el regreso de la competencia. Según el organizador del evento y profesor de Educación Física del campus Pelotas, Vinícius Costa, fue desafiante organizar la logística de la competición, especialmente porque no se consideraron alojamientos, aún debido a la pandemia.<br>
+               <br><i>"¡Afortunadamente funcionó bien! Era un retorno importante, que tenía que ocurrir después de más de dos años sin competición deportiva en el IFSul. ¡Valió la pena! Creo que los estudiantes disfrutaron este regreso, según lo informado por la mayoría de los profesores de Educación Física"</i>, evalúa el docente, destacando que se observaron algunas dificultades técnicas en los juegos, causadas por más de dos años de interrupción y por el reciente regreso a los entrenamientos, <i>"pero ampliamente superadas por la voluntad y disposición de todos"</i>.<br> 
+               <br> Según el rector del IFSul, Flávio Nunes, ver el entusiasmo de las hinchadas y la energía de los estudiantes a lo largo de los juegos fue el punto culminante del regreso de la competencia después de dos años sin el evento. "Es genial ver el entusiasmo de los atletas entrenando y perfeccionándose para la competición. Nuestros juegos van al encuentro de la propia misión institucional del IFSul de ofrecer una formación integral a los estudiantes, desarrollando una serie de habilidades muy importantes junto con los conocimientos técnicos adquiridos", destaca el dirigente.
+            </p>
+            <h2 class="sub-heading">Oportunidade para promover la salud y conquistar nuevas amistades.</h2>
+            <p class="post-text">Participando por primera vez en los Juegos Intercámpus, la estudiante Aline Vargas, del campus Venâncio Aires, describió la experiencia como increíble. La atleta de 16 años, campeona en voleibol de cancha, cuenta que se sintió muy feliz con la oportunidad de participar. <i>"Cuando el profesor presentó la posibilidad de competir en los juegos, ya estaba soñando con eso"</i>, dice la estudiante, agregando que los entrenamientos comenzaron a principios de año.<br> 
+              <br> Atleta de baloncesto, el estudiante Raul Lize Teixeira, del campus Charqueadas, dice que fue a los juegos muy motivado y con grandes expectativas. Haber competido y ganado la final, según él, fue una experiencia muy enriquecedora. Pero más allá de la competencia, Raul, de 17 años y estudiante de informática, destaca que los juegos son un gran estímulo para que los estudiantes cuiden su salud y amplíen sus lazos de amistad. <i>"Es genial tener la oportunidad de conocer a otras personas. Vamos a los juegos con personas de otros campus y todos nos convertimos en amigos"</i>, comenta el estudiante.<br>
+              <br> Participando en tres pruebas de atletismo, el estudiante de electrónica Derik Dias, del campus Pelotas, también fue novato en los Juegos Intercámpus. Y la primera experiencia en la competición fue con excelentes resultados: el joven atleta de 17 años se llevó el oro en los 400 metros y en el relevo 4x100 metros. <i>"Fue genial participar en los Juegos, no todas las escuelas tienen esto"</i>, destaca Derik, diciendo que, con los resultados obtenidos, pretende enfocarse aún más en los entrenamientos.
+            </p>
+            <h2 class="sub-heading">Consulta los resultados de la competición:</h2>
+            <p class="post-text">
+                <strong>Voleibol de cancha</strong><br>
+                Femenino - Campeón: campus Venâncio Aires / Subcampeón: campus Pelotas <br>
+                Masculino - Campeón: campus Pelotas / Subcampeón: campus Venâncio Aires <br><br>
+                <strong>Voleibol de pareja</strong><br>
+                Masculino - Campeón: campus Venâncio Aires / Subcampeón: campus Pelotas <br>
+                Femenino - Campeón: campus Venâncio Aires / Subcampeón: campus Pelotas <br><br>
+                <strong>Baloncesto</strong><br>
+                Femenino - Campeón: campus Pelotas / Subcampeón: campus Sapucaia do Sul <br>
+                Masculino - Campeón: campus Charqueadas / Subcampeón: campus Pelotas <br><br>
+                <strong>Futsal</strong><br>
+                Masculino - Campeón: campus Pelotas-Visconde da Graça / Subcampeón: campus Lajeado <br>
+                Femenino - Campeón: campus Pelotas-Visconde da Graça / Subcampeón: campus Sapucaia do Sul <br><br>
+                <strong>Balonmano</strong><br>
+                Femenino - Campeón: campus Pelotas / Subcampeón: campus Sapucaia do Sul <br>
+                Masculino - Campeón: campus Pelotas / Subcampeón: campus Sapiranga <br><br>
+                <strong>Ténis de mesa</strong><br>
+                Masculino - Campeón: Eliézer Venturini (Bagé) / Subcampeón: Leonardo Kauê de Lima (Sapiranga) <br>
+                Femenino - Campeona: Alice Bohn Rosa (Sapucaia) / Subcampeona: Camile Silveira de Castro (Gravataí) <br>
+                Equipos masculinos - Campeones: campus Bagé / Subcampeones: campus Sapiranga<br>
+                Equipos femeninos - Campeonas: campus Sapucaia do Sul / Subcampeonas: campus Gravataí<br><br>
+                <strong>Ajedrez</strong><br>
+                Masculino - Campeón: Gabriel Eduardo G. Ignacio (Novo Hamburgo) / Subcampeón: Augusto Samuel P. Soares (Santana do Livramento) <br>
+                Femenino - Campeona: Laura da Rosa Leal (Pelotas) / Subcampeona: Antonella de Araújo B. Rosinha (Pelotas) <br><br>
+                <strong>Atletísmo</strong><br><br>
+                <strong>100m</strong><br>
+                Femenino - Campeona: Marina Valente Zehetmeyer (Pelotas) / Subcampeona: Jaine da Rosa Soares (Bagé) <br>
+                Masculino - Campeón: Miguel Ritter (Lajeado) / Subcampeón: Mateus Reis Heinen (Venâncio Aires) <br><br>
+                <strong>200m</strong><br>
+                Masculino - Campeón: Mateus Reis Heinen (Venâncio Aires) / Subcampeón: Dérik Dias Urguim (Pelotas) <br>
+                Femenino - Campeona: Manuella Pereira Domingues (Pelotas) / Subcampeona: Luiza Cardoso Rodrigues (Pelotas) <br><br>
+                <strong>400m</strong><br>
+                Femenino - Campeona: Manuella Pereira Domingues (Pelotas) / Subcampeona: Nicole Silveira Pinto (Pelotas) <br>
+                Masculino - Campeón: Dérik Dias Urguim (Pelotas) / Subcampeón: Guilherme Henrique Schabarum da Costa (Novo Hamburgo) <br><br>
+                <strong>800m</strong><br>
+                Masculino - Campeón: Luan da Silva (Lajeado) / Subcampeón: Gustavo Davies dos Santos (Bagé)<br>
+                Femenino - Campeona: Alissa Gadêa Dos Santos (Charqueadas) / Subcampeona: Nicole Silveira Pinto (Pelotas)<br><br>
+                <strong>1500m</strong><br>
+                Femenino - Campeona: Alissa Gadea dos Santos (Charqueadas) / Subcampeona: Sarah Lemes da Silva (Sapucaia do Sul)<br>
+                Masculino - Campeón: Luan da Silva (Lajeado) / Subcampeón: Abiezer Alves (Gravataí)<br><br>
+                <strong>3000m</strong><br>
+                Femenino - Campeona: Juliane Santiago (Lajeado) / Subcampeona: Asenate de Melo Protti (Pelotas)<br><br>
+                <strong>5000m</strong><br>
+                Masculino - Campeón: Luan da Silva (Lajeado) / Subcampeón: Leonardo Lucas da Silva Mendes (Gravataí)<br><br>
+                <strong>Salto de altura</strong><br>
+                Femenino - Campeona: Paola Zanatta (Lajeado) / Subcampeona: Manuella Jara Castro Pereira (Pelotas)<br>
+                Masculino - Campeón: Otávio Nunes Dias (Pelotas) / Subcampeón: Bernardo Backendorf (Lajeado)<br><br>
+                <strong>Salto de longitud</strong><br>
+                Masculino - Campeón: Alan Knapp (Lajeado) / Subcampeón: Guilherme Henrique Schabarum da Costa (Novo Hamburgo)<br>
+                Femenino - Campeona: Jaine da Rosa Soares (Bagé) / Subcampeona: Marina Valente Zehetmeyer (Pelotas) 
+              </p>
+        </div>
+    </section>
+
+    <!-- SHARE -->
+    <div class="share post-container ">
+        <span><i class='bx bx-share-alt'></i></span>
+        <div class="social mb-2">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-gmail'></i></a>
+        </div>
+    </div>
+    
+    <!-- BACK TO HOME -->
+    <div class="back d-flex justify-content-end" onclick="volverAlInicio()">
+        <i class='bx bx-chevron-up me-3' style="font-size: 2rem;"></i>
+    </div>
+            
+    <!-- FOOTER -->
+    <div class="footer container-fluid">
+        <p><span>IFNews &#169;</span> Todos los derechos reservados</p>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+    </div>
+
+    
+    <!-- Link to Bootstap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Link to JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
